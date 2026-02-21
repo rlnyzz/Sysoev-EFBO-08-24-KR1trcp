@@ -21,13 +21,13 @@ class Feedback(BaseModel):
 
 app = FastAPI()
 
-#Хранилищt
+#Хранилище
 feedback_storage = []
-user = User(name="Иван Петров", id=1)
+user = User(name="Сысоев Виталий", id=1)
 
 @app.get("/")
 async def root():
-    return FileResponse("index.html")
+    return FileResponse("zadanie2.html")
 
 @app.get("/users")
 async def get_user():
