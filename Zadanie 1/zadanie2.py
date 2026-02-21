@@ -1,3 +1,4 @@
+#zadanie 1.2
 from fastapi import FastAPI
 from fastapi.responses import FileResponse
 
